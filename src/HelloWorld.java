@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class HelloWorld {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -10,7 +10,6 @@ public class Main {
         double money = scan.nextDouble();
 
 
-        double r;
 
         int a = (int) (money / 0.25);
         int b = (int) ((money % 0.25)/.10);
